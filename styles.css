@@ -1,0 +1,14 @@
+.container__title {
+    text-align: center;
+}
+
+.swiper {
+    max-width: 600px;
+    height: 300px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 15px !important;
+    color: gray;
+    cursor: pointer;
+}
