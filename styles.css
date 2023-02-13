@@ -2,7 +2,12 @@ body {
     margin: 0px;
 }
 
+.section__song {
+    padding: 7% 0px;
+}
+
 .section__introduction {
+    padding: 7% 0px;
     background-color: #7209B7;
 }
 
@@ -55,4 +60,10 @@ footer {
 .slider__image {
     height: 100%;
     border-radius: 6px;
+}
+
+@media (max-width: 768px) { 
+    .container__col {
+        padding-top: 10px;
+    }
 }
