@@ -1,5 +1,31 @@
+body {
+    margin: 0px;
+}
+
+.section__introduction {
+    background-color: #7209B7;
+}
+
 .container__title {
     text-align: center;
+    color: white;
+}
+
+.container__title--black {
+    text-align: center;
+    color: black;
+}
+
+.text {
+    color: white;
+}
+
+.container {
+    padding: 15px 0px;
+}
+
+.container__col {
+    padding: 5px 0px;
 }
 
 .swiper {
@@ -7,8 +33,26 @@
     height: 300px;
 }
 
+.swiper-slide {
+    text-align: center;
+}
+
 .swiper-button-next:after, .swiper-button-prev:after {
     font-size: 15px !important;
-    color: gray;
+    color: white;
     cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0px;
+}
+
+.slider__image {
+    height: 100%;
+    border-radius: 6px;
 }
